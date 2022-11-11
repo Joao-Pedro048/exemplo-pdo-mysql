@@ -1,6 +1,7 @@
 <?php
 require_once './vendor/autoload.php';
-use PDO;
+
+use ExemploPDOMySQL\MySQLconnection; //PDO
 
 $bd = new PDO('mysql:host=localhost;dbname=biblioteca','root', '');
 $comando->execute();
